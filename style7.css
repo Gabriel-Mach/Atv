@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.quad{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation-name: atv;
+    animation-duration: 4s;
+    
+}
+@keyframes atv {
+    from{
+        height: 0px;
+        width: 0px;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: chocolate;
+    }
+    to{
+        height: 200px;
+        width: 200px;
+
+    }
+
+    
+}

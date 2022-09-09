@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.puls{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: crimson;
+    animation-duration: 2s;
+    animation-name: ab;
+    animation-iteration-count: infinite;
+
+}
+@keyframes ab {
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    50%{    
+        width: 250px;
+        height: 250px;
+    }
+    to{
+        height: 200px;
+        width: 200px;
+
+    }
+    
+}

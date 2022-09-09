@@ -1,0 +1,16 @@
+.circu{
+    height: 200px;
+    width: 200px;
+    background: fixed;
+    background-color: red;
+    border-radius: 100px;
+    margin-top: 300px;
+    margin-left: auto;
+    padding-top: auto;
+    transition: all 4s
+}
+.circu:hover:hover{
+    margin-right: 500px;
+
+
+}

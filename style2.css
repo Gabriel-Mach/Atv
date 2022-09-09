@@ -1,0 +1,15 @@
+.bola{
+    height: 200px;
+    width: 200px;
+    background: fixed;
+    background-color: red;
+    border-radius: 100px;
+    transition: all 1s
+}
+.bola:hover{
+    height: 420px;
+    width: 420px;
+    background-color: orange;
+    border-radius: 210px;
+
+}

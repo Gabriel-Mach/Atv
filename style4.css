@@ -1,0 +1,12 @@
+.giro{
+    height: 200px;
+    width: 200px;
+    transition: 3s;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 300px;
+    padding-top: auto;  
+}
+.giro:hover{
+    rotate: 45deg;
+}

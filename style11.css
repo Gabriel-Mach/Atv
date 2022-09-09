@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.puls{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    animation-duration: 2s;
+    animation-name: rod;
+    animation-iteration-count: infinite;
+}
+@keyframes rod {
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    25%{    
+        width: 400px;
+        height: 400px;
+        rotate: 90deg;
+    }
+    50%{
+        height: 200px;
+        width: 200px;
+        rotate: 180deg;
+
+    }
+    75%{    
+        width: 400px;
+        height: 400px;
+        rotate: 270deg;
+    }
+    to{
+        height: 200px;
+        width: 200px;
+        rotate: 360deg;
+    }
+    
+}

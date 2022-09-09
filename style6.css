@@ -1,0 +1,44 @@
+.girar{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation-name: atv;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes atv {
+    from{
+        left: 45;
+
+    }
+    12.5%{
+        background-color: rebeccapurple;
+        rotate: 90deg;
+    }
+    25%{
+        background-color: red;
+        rotate: 135deg;
+    }
+    37.5%{
+        background-color: green;
+        rotate: 180deg;
+    }
+    50%{
+        background-color: orange;
+        rotate: 225deg;
+    }
+    62.5%{
+        background-color: crimson;
+        rotate: 270deg;
+
+    }
+    75%{
+        background-color: deeppink;
+        rotate: 315deg;
+    }
+    to{
+        background-color: gray;
+        rotate: 360deg;
+    }
+    
+}
